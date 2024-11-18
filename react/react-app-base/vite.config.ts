@@ -1,11 +1,11 @@
 import type { ConfigEnv, UserConfig } from "vite";
 
 import react from "@vitejs/plugin-react";
-import { configSvgPlugin } from "./build/vite/plugins/svg";
-import { configMockPlugin } from "./build/vite/plugins/mock";
-import { createViteResolve } from "./build/vite/resolve";
-import { createViteBuild } from "./build/vite/build";
-import { createViteServer } from "./build/vite/server";
+import { configSvgPlugin } from "./build/plugins/svg";
+import { configMockPlugin } from "./build/plugins/mock";
+import { createViteResolve } from "./build/resolve";
+import { createViteBuild } from "./build/build";
+import { createViteServer } from "./build/server";
 
 // https://vite.dev/config/
 export default (env: ConfigEnv): UserConfig => {

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "cwd": "${workspaceFolder}/vue2/svg-sprite-runtime",
+      "command": "pnpm dev",
+      "name": "Run pnpm dev",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
